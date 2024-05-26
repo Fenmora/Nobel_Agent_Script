@@ -32,7 +32,7 @@ project/
    cd Nobel_Agent_Script
    ```
 
-2. Open index.html File
+2. Open with visual studio live server
 
 ## Getting Started
 If you have any questions or feedback, you can contact me at [fenmora@gmail.com]
