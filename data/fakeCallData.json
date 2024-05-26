@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "company": "Acme Corporation"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90001",
+    "company": "Tech Inc"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60601",
+    "company": "Global Co"
+  }
+]

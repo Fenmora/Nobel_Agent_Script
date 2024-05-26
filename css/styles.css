@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  text-align: left;
+  justify-content: center;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-row label {
+  flex: 1; /* Equal width for labels */
+  max-width: 100px; /* Limit maximum width */
+  margin-right: 10px;
+  text-align: right; /* Align labels to the right */
+}
+
+.form-row input {
+  flex: 1; /* Take remaining space */
+  max-width: 200px; /* Limit maximum width */
+  margin-bottom: 10px;
+}
+
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#data-table th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+} 
+
+.lorem-ipsum-card {
+  margin: 0 auto; 
+  max-width: 800px; 
+}
+.table-container {
+  margin: 0 auto 20px;
+  max-width: 800px;
+  overflow-x: auto;
+  height: 400px; /* Set a fixed height for the table container */
+}
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+#data-table th,
+#data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* #data-table th:hover, */
+#data-table tr:hover {
+  background-color: #4CAF50;
+}
+
+#category-container {
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  width: 100px; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container-two-columns {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
